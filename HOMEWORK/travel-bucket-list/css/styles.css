@@ -1,0 +1,49 @@
+body {
+    background:rgb(240,240,240);
+    margin: 0;
+    font-family: "arial",sans-serif;
+}
+    
+
+#container {
+    background: white;
+    padding:15px;
+    margin: 0 auto;
+    width: 750px;
+
+}
+
+h1 {
+    background: rgb(12,195, 149);
+    color:white;
+    font-size:24px;
+    margin: 0;
+    padding: 20px 0;
+    text-align:center;
+
+}
+
+#locations p {
+    font-size:14px;
+    font-weight: bold;
+    display:inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border:5px;
+    border: 3px dotted black;
+
+
+}
+
+.maui-aspen {
+    background: rgb(183,213, 253);
+    text-align: center;
+
+}
+
+#reykjavik {
+    background: rgb(181, 241,220);
+    text-align: center;
+
+}
