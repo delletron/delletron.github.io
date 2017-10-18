@@ -1,0 +1,53 @@
+body {
+	font-family: "Lato";
+	color:#444444;
+	line-height:1.5;
+}
+
+.container {
+	width: 740px;
+	padding:54px;
+	border-left:6px solid #dddddd;
+
+}
+
+h1 {
+	color:#dd0000;
+	line-height:1.5;
+	font-family:"Lato";
+
+}
+
+nav {
+	color: #dddddd;
+}
+
+.date {
+	color:#cccccc;
+}
+
+img {
+	width:740px;
+
+}
+
+article {
+	color:black;
+}
+
+.continues {
+	color:#aa0000;
+	font-weight: bold;
+	text-align: right;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 30px;
+
+}
+
+footer {
+	color:#dd0000;
+}
+
+span {
+	color:#cccccc;
+}
