@@ -7,13 +7,13 @@ font-family: 'Source Sans Pro', sans-serif;
 
 */
 
-body {
+header {
 	margin:0;
-	padding: 0;
+	padding:0;
 	border:0;
 }
 
-#container {
+#wrapper {
 	margin:0;
 	padding:0;
 	border:0;
