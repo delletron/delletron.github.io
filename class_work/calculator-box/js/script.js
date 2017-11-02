@@ -68,7 +68,15 @@ function whiteBkg () {
 }
 
 
-$('#out').click(clear)
-function clear () {
-	total === 0;
-}
+// $('#out').click(clear)
+// function clear () {
+// 	total = 0;
+// }
+
+$('#out').click(function () {
+	total = 0;
+
+	$('#out')
+		.text(total)
+		.css('background', 'white');
+});
