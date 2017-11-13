@@ -1,0 +1,10 @@
+$('#screen').raindrops({
+	color:'gainsboro',
+	canvasHeight:250,
+	waveLength:500,
+	frequency:23,
+	density:.02,
+	rippleSpeed:.002,
+	rightPadding:20,
+	leftPadding:20,
+})
