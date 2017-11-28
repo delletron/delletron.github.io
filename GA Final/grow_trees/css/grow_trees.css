@@ -1,20 +1,148 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	background-image: url(../images/grow_trees_bkg_no_trees.gif);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
 }
 
-#trees {
+
+.trees {
+	position:relative;
+    bottom: 30px;
+    width: 100%;
+	height: 300px;
+	/*border: 16px black solid;*/
+	display:flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	/*how to stagger 2 trees?*/
+
+}
+
+.trees img {
 	display:none;
-	width:150px; 
+	height:250px;
+	width:100px; 
 	padding:10px;
 
 }
 
-img {
-	height:50px;
-	width:50px;
+#first-tree {
+	position: absolute;
+	left:120px;
+	bottom:40px;
+}
 
+#second-tree {
+	position: absolute;
+	left:300px;
+}
+
+#third-tree {
+	position: absolute;
+	left:550px;
+	bottom:40px;
+}
+
+#fourth-tree {
+	position: absolute;
+	right:500px;
+}
+
+#fifth-tree {
+	position: absolute;
+	right:300px;
+	bottom:40px;
+}
+
+#sixth-tree {
+	position: absolute;
+	right:120px;
+}
+
+
+
+.addtrees {
+	position:relative;
+	top:10px;
+	height: 40px;
+	width:100%;
+	display:flex;
+	justify-content: space-around;
+	/*border:6px black solid;*/
+	/*align-items: flex-end;*/
+}
+
+
+.addtrees input {
+	height:20px;
+	width: 20px;
+}
+
+
+#first-add {
+	position: absolute;
+	left:230px;
+	bottom:50px;
+}
+
+#second-add {
+	position:absolute;
+	left:400px;
+	bottom:35px;
+}
+
+#third-add {
+	position: absolute;
+	left:650px;
+	bottom:50px;
+}
+
+#fourth-add {
+	position: absolute;
+	right:500px;
+	bottom:35px;
+}
+
+#fifth-add {
+	position: absolute;
+	right:300px;
+	bottom:50px;
+}
+
+#sixth-add {
+	position: absolute;
+	right:120px;
+	bottom:35px;
+}
+
+
+
+/*JS CSS*/
+/*html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #111;
+}*/
+
+
+/*START CONFETTI CSS*/
+/*body{
+  background-color:black;
+}*/
+
+body
+  margin: 0
+  background: #ccc
+  -webkit-font-smoothing: antialiasedround: #111;
 }

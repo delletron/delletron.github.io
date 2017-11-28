@@ -1,27 +1,62 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 	<title>sprinkle</title>
 
 	<link rel="stylesheet" type="text/css" href="css/grow_trees.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/blur.css"> -->
+	
+
 </head>
 
 
 
 
 <body>
-	<div id="trees">
-		<img id="first-tree" src="images/single_tree.png">
+	
+
+	<div id="overlay" class="cover blur-in">
+		<div class="content">
+
+			<div class="addtrees">
+				<input img id="first-add" type="image" src="images/plus_sign.png">
+				<input img id="second-add" type="image" src="images/plus_sign.png">
+				<input img id="third-add" type="image" src="images/plus_sign.png">
+				<input img id="fourth-add" type="image" src="images/plus_sign.png">
+				<input img id="fifth-add" type="image" src="images/plus_sign.png">
+				<input img id="sixth-add" type="image" src="images/plus_sign.png">
+			</div>
+			<div class="trees">
+				<img id="first-tree" src="images/single_tree.png">
+				<img id="second-tree" src="images/single_tree.png">
+				<img id="third-tree" src="images/single_tree.png">
+				<img id="fourth-tree" src="images/single_tree.png">
+				<img id="fifth-tree" src="images/single_tree.png">
+				<img id="sixth-tree" src="images/single_tree.png">
+			</div>
+		</div>
 	</div>
 
+	<div class="pop-up">
+		<a href="#" class="close-button">&#10006;</a>
+			Let's kill some time!
+		</div>
+		
+	<!-- <canvas id="confetti"></canvas> -->
+<!-- %canvas{"id" => "confetti", "width" => "1", "height" => "1"}
+      
+%a"href" => "http://iprodev.com", "target" => "_blank", "class" => "iprodev"} iprodev.com -->
 
 
 
 
 
 
-
+		
 		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/blurmodal.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
-	</body>
+</body>
 </html>
