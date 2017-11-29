@@ -6,51 +6,56 @@
 //	}
 
 
-$(function() {
+// $(function() {
 
-  $('.pop-up').hide();
-  $('.pop-up').fadeIn(1000);
-  $('.close-button').click(function (e) {
-  $('.pop-up').fadeOut(700);
-  $('#overlay').removeClass('blur-in');
-  $('#overlay').addClass('blur-out');
-  e.stopPropagation();
-  });
-});
+//   $('.pop-up').hide();
+//   $('.pop-up').fadeIn(1000);
+//   $('.close-button').click(function (e) {
+//   $('.pop-up').fadeOut(700);
+//   $('#overlay').removeClass('blur-in');
+//   $('#overlay').addClass('blur-out');
+//   e.stopPropagation();
+//   });
+// });
+
+// $('#first-add').click(function () {
+// 	$(this).find('#first-tree').show();
+// });
 
 
-$('#first-add').click(reveal)
+$('#first-add').click(reveal1)
 
-function reveal () {
-	$('#first-tree').show(slow);
+function reveal1 () {
+	$('#first-tree').show();
 }
 
-$('#second-add').click(reveal)
+$('#second-add').click(reveal2)
 
-function reveal () {
+function reveal2 () {
 	$('#second-tree').show();
+
 }
 
-$('#third-add').click(reveal)
+$('#third-add').click(reveal3)
 
-function reveal () {
+function reveal3 () {
 	$('#third-tree').show();
 }
 
-$('#fourth-add').click(reveal)
+$('#fourth-add').click(reveal4)
 
-function reveal () {
+function reveal4 () {
 	$('#fourth-tree').show();
 }
 
-$('#fifth-add').click(reveal)
+$('#fifth-add').click(reveal5)
 
-function reveal () {
+function reveal5 () {
 	$('#fifth-tree').show();
 }
 
-$('#sixth-add').click(reveal)
+$('#sixth-add').click(reveal6)
 
-function reveal () {
+function reveal6 () {
 	$('#sixth-tree').show();
 }

@@ -1,3 +1,6 @@
+
+
+
 var canvas = document.getElementById('confetti');
 var ctx = canvas.getContext('2d');
 var startTime = new Date().getTime();

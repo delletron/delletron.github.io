@@ -4,7 +4,7 @@ html, body {
 
 body {
 	background-image: url(../images/grow_trees_bkg_no_trees.gif);
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: flex;
@@ -125,24 +125,42 @@ body {
 
 
 
-/*JS CSS*/
-/*html, body {
+/*Confetti.js*/
+
+html, body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  background: #000;
   height: 100%;
-  overflow: hidden;
-  background: #111;
-}*/
+  width: 100%;
+}
+#confetti{
+  /*display: none;*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
 
 
-/*START CONFETTI CSS*/
-/*body{
-  background-color:black;
-}*/
-
-body
-  margin: 0
-  background: #ccc
-  -webkit-font-smoothing: antialiasedround: #111;
+a.iprodev {
+  line-height: normal;
+  font-family: Varela Round, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 13px;
+  color: #A7AAAE;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  border: 1px solid #A7AAAE;
+  padding: 12px 20px 10px;
+  border-radius: 50px;
+  transition: all .1s ease-in-out;
+  text-transform: uppercase;
+}
+a.iprodev:hover {
+  background: #A7AAAE;
+  color: white;
 }
