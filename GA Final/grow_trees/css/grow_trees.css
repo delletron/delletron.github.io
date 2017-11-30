@@ -127,15 +127,14 @@ body {
 
 /*Confetti.js*/
 
-html, body {
+html, body {/*
   margin: 0;
   padding: 0;
   background: #000;
   height: 100%;
-  width: 100%;
+  width: 100%;*/
 }
 #confetti{
-  /*display: none;*/
   position: absolute;
   left: 0;
   top: 0;
